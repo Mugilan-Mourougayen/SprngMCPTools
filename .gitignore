@@ -1,0 +1,27 @@
+# Ignore compiled code and dependencies
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/.gradle/
+**/build/
+
+# Ignore IDE and system files
+**/.idea/
+**/.vscode/
+**/*.iml
+**/.DS_Store
+**/Thumbs.db
+
+# Ignore environment and secrets
+**/.env
+**/*.key
+**/*.pem
+**/*.crt
+
+# Ignore logs and temp files
+**/*.log
+**/logs/
+
+# Ignore Docker-specific files
+**/docker-compose.override.yml
